@@ -1,0 +1,414 @@
+/**************************** header styles *****************************/
+header {
+  background-image: url("../html_advanced/images_web_dev/Header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header > a > img {
+  margin-left: 100px;
+  margin-top: 15px;
+}
+.menu-container {
+  float: right;
+  width: 40%;
+}
+.menu-container > ul {
+  list-style-type: none;
+}
+.menu-container > ul > li {
+  display: inline-block;
+  padding-right: 20px;
+}
+.menu-container > ul > li > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+.header-description > h1 {
+  text-align: center;
+  font-size: 120px;
+  margin-top: 140px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.header-description > div {
+  width: 40%;
+  margin: 0 auto;
+}
+.header-description > div > span {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 20px;
+}
+.header-description > div > span:first-of-type {
+  margin-left: 120px;
+}
+.header-description > button {
+  width: 162px;
+  height: 44px;
+  background-color: #c271ff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 0;
+  display: block;
+  margin: 50px auto;
+}
+.bottom-header {
+  width: 100%;
+  overflow: hidden;
+}
+.bottom-header > h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+.bottom-header > h2 > span {
+  color: #c271ff;
+}
+.persons-container {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  display: block;
+}
+.persons-container .person {
+  width: 24%;
+  display: inline-block;
+}
+.persons-container .person > img {
+  display: block;
+  margin: 0 auto;
+}
+.persons-container .person > h3,
+.persons-container .person > p {
+  text-align: center;
+}
+/**************************** header styles *****************************/
+/* General Section Styling */
+.quote {
+  background-color: #b77ef8; /* Replace with the exact purple tone from Figma */
+  padding: 50px 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container for Image and Text */
+.quote-img {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between image and text */
+}
+
+/* Styling for Image */
+.quote-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for Quote Content */
+.quote-content {
+  text-align: left;
+  max-width: 600px;
+}
+
+/* Blockquote Styling */
+blockquote {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #ffffff;
+  margin: 0 0 10px;
+}
+
+/* Author Name Styling */
+.quote-author {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+/* Role Styling */
+.quote-role {
+  font-size: 1rem;
+  color: #dcdcdc;
+  margin: 0;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333333;
+  margin: 1rem 0 0.5rem;
+  text-align: center;
+}
+.text {
+  color: #b77ef8;
+  font-size: 30px;
+}
+
+/* General Section Styling */
+.video-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Individual Video Card */
+.video {
+  width: 280px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+  padding: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Thumbnail Image with Play Button */
+.video img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  position: relative;
+}
+
+.video img::after {
+  content: url("./images_web_dev/play-button.png");
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+}
+
+/* Video Title */
+.video h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333333;
+  margin: 1rem 0 0.5rem;
+}
+
+/* Video Description */
+.video p.description {
+  font-size: 0.9rem;
+  color: #777777;
+  margin: 0 0 1rem;
+}
+
+/* Author and Time Section */
+.video div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.video div img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.video div h3 {
+  font-size: 0.9rem;
+  color: #6a1b9a;
+  font-weight: 600;
+}
+
+/* Rating and Duration */
+.rating-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 10px;
+}
+
+.rating img {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  object-fit: contain;
+}
+
+.rating-container p {
+  font-size: 0.8rem;
+  color: #888888;
+}
+
+/* Styling for Free Membership Section */
+.free-membership {
+  background-color: #121b2d; /* Dark background */
+  padding: 4rem 2rem;
+  text-align: center;
+  color: white;
+}
+
+/* Title Styling */
+.free-membership .title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  color: #ffffff;
+}
+
+.free-membership .title span {
+  color: #a478e7; /* Purple for "Free" */
+}
+
+/* Membership Container */
+.membership-container {
+  display: flex;
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Align items vertically */
+  flex-wrap: nowrap; /* Prevent wrapping to a new line */
+  gap: 2rem; /* Add spacing between items */
+  overflow-x: auto; /* Allow horizontal scrolling if the screen is too small */
+  margin-bottom: 3rem;
+}
+
+/* Individual Membership Item */
+.membership-item {
+  flex: 1; /* Ensure equal widths */
+  max-width: 22%; /* Limit the width for consistency */
+  background-color: #1a2a3a;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.membership-item img {
+  width: 60px; /* Icon size */
+  margin-bottom: 1rem;
+}
+
+.membership-item h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.membership-item .description {
+  font-size: 1rem;
+  color: #d3d3d3; /* Light gray text */
+}
+
+/* Register Button */
+.register-btn {
+  background-color: #a478e7; /* Purple button */
+  color: white;
+  padding: 1rem 2.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+/* F.A.Q Section Styling */
+.faq-section {
+  padding: 4rem 2rem;
+  background-color: #f7f7f9;
+  text-align: center;
+}
+
+.faq-section .title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 3rem;
+}
+
+.faq-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+}
+
+.faq-container div {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.faq-container div:hover {
+  transform: translateY(-5px);
+}
+
+.faq-container h2 {
+  font-size: 1.5rem;
+  color: #6200ea;
+  margin-bottom: 1rem;
+}
+
+.faq-container p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #121b2d; /* Dark background */
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between; /* Spread logo and socials to opposite sides */
+  align-items: center; /* Align items vertically */
+  padding: 0 2rem; /* Add horizontal spacing */
+}
+
+.footer-logo img {
+  max-width: 120px; /* Adjust logo size */
+}
+
+.footer-socials {
+  display: flex;
+  gap: 1rem; /* Add spacing between social icons */
+}
+
+.footer-socials a img {
+  width: 30px; /* Adjust size of social media icons */
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.footer-socials a img:hover {
+  transform: scale(1.2); /* Hover effect for icons */
+}
+
+footer p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  opacity: 0.7;
+  text-align: center;
+}
