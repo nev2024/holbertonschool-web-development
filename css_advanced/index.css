@@ -4,9 +4,9 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
-header > a > img {
+header > div > a > img {
   margin-left: 100px;
-  margin-top: 15px;
+  margin-top: 40px;
 }
 .menu-container {
   float: right;
@@ -17,7 +17,9 @@ header > a > img {
 }
 .menu-container > ul > li {
   display: inline-block;
-  padding-right: 20px;
+  padding-right: 40px;
+  margin-top: 30px;
+  width: 100px;
 }
 .menu-container > ul > li > a {
   text-decoration: none;
@@ -190,7 +192,7 @@ blockquote {
 }
 
 .video img::after {
-  content: url("./images_web_dev/play-button.png");
+  content: url("./images_web_dev/play.png");
   position: absolute;
   top: 50%;
   left: 50%;
