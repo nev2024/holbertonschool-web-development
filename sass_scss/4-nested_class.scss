@@ -1,0 +1,29 @@
+$text-color:#3D3D3D;
+$text-color1: #FF0000;
+body{
+color: $text-color;
+}
+body .red{
+    color:$text-color1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+Text color #3D3D3D to elements inside body tags
+Text color #FF0000 to any elements of class .red inside body tags
+You must use nested declarations
+guillaume@ubuntu:~/$ sass 4-nested_class.scss | tail -n +2
+body {
+  color: #3D3D3D; }
+  body .red {
+    color: #FF0000; }
+guillaume@ubuntu:~/$ 
