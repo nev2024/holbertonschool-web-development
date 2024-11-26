@@ -1,9 +1,8 @@
 $text-color: #3D3D3D;
 $text-color1:#FF0000;
 body {
-color: $text-color;
-.red{
-color: $text-color1;
-}
-
-}
+    color: #3D3D3D;
+    > .red {
+      color: #FF0000;
+    }
+  }
